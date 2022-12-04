@@ -1,0 +1,51 @@
+* {
+    background-color: black;
+}
+
+main {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+}
+.container {
+    text-align: center;
+    border-radius: 10px;
+    
+}
+h1 {
+    color: white;
+    font-family: cursive;
+    padding-bottom: 1.7rem;
+}
+p {
+    color: white;
+    font-family: cursive;
+}
+.easter-1 {
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: black;
+
+}
+.button-container {
+    text-align: center;
+}
+
+.easter-1:hover {
+    background-color: #161616;
+    cursor: pointer;
+    color: rgb(197, 197, 197);
+}
+footer {
+    display: flex;
+    padding-top: 36rem;
+    justify-content: center;
+}
+
